@@ -38,3 +38,31 @@ li {
 a {
     color: white;
 }
+
+.mission-background {
+    height: 700px;
+    width: 100%;
+}
+
+.tea-month img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-container {
+    justify-content: space-evenly;
+    align-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.tea-month {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.location {
+    height: 700px;
+    width: 100%;
+}
