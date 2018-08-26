@@ -2,6 +2,7 @@ html {
     font-family: Helvetica;
     color: seashell;
     background-color: black;
+    opacity: 0.9;
 }
 
 .logo {
@@ -28,7 +29,7 @@ header {
 .menu {
     list-style: none;
     display: inline-flex;
-    padding-left: 850px;
+    padding-left: 500px;
 }
 
 li {
@@ -42,6 +43,14 @@ a {
 .mission-background {
     height: 700px;
     width: 100%;
+}
+
+#mission-title {
+    width: 1247px;
+    background: black;
+    position: absolute;
+    top: 300px;
+    text-align: center;
 }
 
 .tea-month img {
@@ -62,7 +71,74 @@ a {
     margin: auto;
 }
 
+h4 {
+    margin-top: 10px;
+}
+
 .location {
-    height: 700px;
+    height: 500px;
     width: 100%;
+}
+
+.locations-container {
+    width: 1247px;
+    position: absolute;
+    top: 1400px;
+    text-align: center;
+}
+
+.container-of-containers {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    opacity: 1;
+}
+
+.downtown-container {
+    width: 300px;
+    background: black;
+    margin-right: 40px;
+}
+
+.east-bayside-container {
+    width: 300px;
+    background: black;
+    margin-right: 40px;
+}
+
+.oakdale-container {
+    width: 300px;
+    background: black;
+}
+
+.ending-title {
+    text-align: center;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 1080px) {
+    #mission-title {
+        width: 100%;
+    }
+    .locations-container {
+        align-items: center;
+        padding-left: 350px;
+    }
+    .menu {
+        padding-left: 1450px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .menu {
+        padding-left: 500px;
+    }
+    .locations-container {
+        text-align: center;
+    }
 }
