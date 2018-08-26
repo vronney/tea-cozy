@@ -1,11 +1,40 @@
 html {
     font-family: Helvetica;
-    font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
 }
 
 .logo {
+    color: white;
+    height: 50px;
+    padding: 5px 0 10px 0;
+}
+
+header {
+    display: inline-flex;
+    position: fixed;
+    height: 69px;
+    margin-top: -8px;
+    width: 100%;
+    background: black;
+    border-bottom: 2px solid seashell;
+    align-content: center;
+}
+
+.nav {
+    align-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 850px;
+}
+
+li {
+    padding: 0 8px 0 0;
+}
+
+a {
     color: white;
 }
