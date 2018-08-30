@@ -182,31 +182,41 @@ footer {
 
 @media only screen and (max-width: 400px) {
     .menu {
-        padding-left: 170px;
+        padding-left: 50px;
         font-size: 15px;
-        width: 300px;
+        display: inline-block;
+        margin: 5px 0 5px 0;
     }
     .locations-container {
         text-align: center;
     }
     #header {
-        width: auto;
+        width: 590px;
         position: fixed;
     }
     #mission-title {
-        font-size: 10px;
-        top: 250px;
-        width: 590px;
+        font-size: 8px;
+        position: absolute;
+        top: 130px;
+        width: 333px;
+        height: 55px;
     }
     .mission-background {
-        width: 590px;
-        height: 500px;
+        width: 333px;
+        height: 200px;
+        position: relative;
+        top: 64px;
+    }
+    .mission-statement {
+        margin: 5px 0 5px 0;
     }
     .locations-container {
         padding-left: 150px;
     }
     .tea-month {
-        width: 590px;
+        width: 333px;
+        position: relative;
+        top: 65px;
     }
     .location {
         width: 590px;
