@@ -1,6 +1,6 @@
 # Tea Cozy 
 ## Layout with Flexbox
-### Codecademy Project
+- Codecademy Project
 *** 
 ### Purpose: 
 To create a fictional tea shop website.  Design specs and image assests provided.  
