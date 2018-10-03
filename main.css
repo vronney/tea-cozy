@@ -14,7 +14,7 @@ html {
 }
 
 #header {
-    display: inline-flex;
+    display: flex;
     position: fixed;
     height: 69px;
     margin-top: -8px;
