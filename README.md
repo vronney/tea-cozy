@@ -1,4 +1,4 @@
-# Tea Cozy 
+# Tea Cozy - Tea Shop
 ## Layout with Flexbox
 - Codecademy Project
 *** 
