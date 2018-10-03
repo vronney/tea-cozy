@@ -26,6 +26,7 @@ html {
 .nav {
     overflow: hidden;
     align-content: center;
+    display: inline-flex;
 }
 
 .menu {
