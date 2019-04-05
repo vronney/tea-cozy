@@ -1,0 +1,240 @@
+html {
+    margin: 0 auto 0 auto;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    max-width: 100%;
+}
+
+.logo {
+    color: white;
+    height: 50px;
+    padding: 5px 0 10px 15px;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    height: 69px;
+    margin-top: -8px;
+    background: black;
+    border-bottom: 2px solid seashell;
+    width: 1890px;
+}
+
+.nav {
+    overflow: hidden;
+    align-content: center;
+    display: inline-flex;
+}
+
+.menu {
+    list-style: none;
+    display: inline-flex;
+}
+
+li {
+    padding: 0 8px 0 0;
+}
+
+a {
+    color: white;
+}
+
+.mission-background {
+    height: 700px;
+    width: 100%;
+}
+
+#mission-title {
+    width: 1247px;
+    background: black;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+}
+
+.tea-month img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-container {
+    justify-content: space-evenly;
+    align-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.tea-month {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.location {
+    height: 500px;
+    width: 100%;
+}
+
+.locations-container {
+    width: 1247px;
+    position: absolute;
+    top: 1400px;
+    text-align: center;
+}
+
+.container-of-containers {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    opacity: 1;
+}
+
+.downtown-container {
+    width: 300px;
+    background: black;
+    margin-right: 40px;
+}
+
+.east-bayside-container {
+    width: 300px;
+    background: black;
+    margin-right: 40px;
+}
+
+.oakdale-container {
+    width: 300px;
+    background: black;
+}
+
+.ending-title {
+    text-align: center;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+/***** Monitor view **********/
+
+@media only screen and (min-width: 1600px) {
+    #mission-title {
+        width: 100%;
+    }
+    .locations-container {
+        align-items: center;
+        padding-left: 320px;
+    }
+    .menu {
+        padding-left: 1400px;
+    }
+}
+
+
+/********** Laptop view *********/
+
+@media only screen and (max-width: 1550px) and (min-width: 1290px) {
+    .menu {
+        padding-left: 1080px;
+    }
+    .locations-container {
+        text-align: center;
+    }
+    #header {
+        width: 1505px;
+    }
+    #mission-title {
+        width: 100%;
+    }
+    .locations-container {
+        padding-left: 150px;
+    }
+}
+
+
+/************ Tablet view **********/
+
+@media only screen and (max-width: 1290px) and (min-width: 700px) {
+    .menu {
+        padding-left: 800px;
+    }
+    .locations-container {
+        text-align: center;
+    }
+    header {
+        width: 1505px;
+    }
+    #mission-title {
+        width: 100%;
+    }
+}
+
+
+/************* Phone view ******************/
+
+@media only screen and (max-width: 400px) {
+    .menu {
+        padding-left: 50px;
+        font-size: 15px;
+        display: inline-block;
+        margin: 5px 0 5px 0;
+    }
+    .locations-container {
+        text-align: center;
+    }
+    #header {
+        width: 590px;
+        position: fixed;
+    }
+    #mission-title {
+        font-size: 8px;
+        position: absolute;
+        top: 130px;
+        width: 333px;
+        height: 55px;
+    }
+    .mission-background {
+        width: 333px;
+        height: 200px;
+        position: relative;
+        top: 64px;
+    }
+    .mission-statement {
+        margin: 5px 0 5px 0;
+    }
+    .locations-container {
+        padding-left: 150px;
+    }
+    .tea-month {
+        width: 333px;
+        position: relative;
+        top: 65px;
+    }
+    .location {
+        width: 590px;
+        height: 500px;
+    }
+    .locations-container {
+        width: 590px;
+        top: 1950px;
+        padding-left: 0px;
+    }
+    .downtown-container {
+        width: 100px;
+    }
+    .east-bayside-container {
+        width: 100px;
+    }
+    .oakdale-container {
+        width: 100px;
+    }
+}
