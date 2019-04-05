@@ -2,112 +2,134 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tea Cozy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Cozy | Tea Shop</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <header id="header">
-        <div class="logo-img">
-            <img src="img/img-tea-cozy-logo.png" class="logo" alt="tea-cozy-logo">
-        </div>
-        <div class="nav">
-            <ul class="menu">
-                <li class="nav-menu"><a href="#mission">Mission</a></li>
-                <li class="nav-menu"><a href="#featured">Featured Tea</a></li>
-                <li class="nav-menu"><a href="#locations">Locations</a></li>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <img class="navbar-brand logo" src="images/img-tea-cozy-logo.png" alt="tea-cozy-logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#mission">Mission</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#featured">Featured</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#location">Locations</a>
+                </li>
             </ul>
         </div>
-    </header>
-    <div class="mission-img">
+    </nav>
+    <div>
         <section id="mission">
-            <img src="img/img-mission-background.jpg" alt="mission-background-img" class="mission-background">
+            <img class="img-fluid missionImage" src="images/img-mission-background.jpg" alt="mission-background-img"
+                class="mission-background">
             <div id="mission-title">
                 <h2 class="mission-statement">Our Mission</h2>
-                <h4 class="mission-support">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+                <h4 class="mission-support">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair
+                    Trade, Organic Tea</h4>
             </div>
         </section>
     </div>
-    <div class="tea-month">
-        <section id="featured">
+    <div class="bg-dark text-white tea-month" id="featured">
+        <div class="container">
             <div id="tea-month-statement">
-                <h2 class="tea-month-statement">Tea of the Month</h2>
+                <h2 class="tea-month-statement text-center pt-2">Tea of the Month</h2>
             </div>
             <div id="tea-month-support">
-                <h4 class="tea-month-support">What's Steeping at the Tea Cozy?</h4>
+                <h4 class="tea-month-support text-center mb-3">What's Steeping at the Tea Cozy?</h4>
             </div>
-            <div class="tea-container">
-                <div id="fall-berry">
-                    <img src="img/img-berryblitz.jpg" alt="fall-berry" class="fall-berry">
-                    <h4 class="fall-berry-title">Fall Berry Blitz Tea</h4>
+            <div class="row d-flex justify-content-around">
+                <div id="fall-berry col-2">
+                    <img src="images/img-berryblitz.jpg" alt="fall-berry" class="img-fluid fall-berry">
+                    <h4 class="fall-berry-title text-center">Fall Berry Blitz Tea</h4>
                 </div>
-                <div id="spiced-rum">
-                    <img src="img/img-spiced-rum.jpg" alt="spiced-rum" class="spiced-rum">
-                    <h4 class="spiced-rum-title">Spiced Rum Tea</h4>
+                <div id="spiced-rum col-2">
+                    <img src="images/img-spiced-rum.jpg" alt="spiced-rum" class="img-fluid spiced-rum">
+                    <h4 class="spiced-rum-title text-center">Spiced Rum Tea</h4>
                 </div>
-                <div id="donut">
-                    <img src="img/img-donut.jpg" alt="donut" class="donut">
-                    <h4 class="donut-title">Seasonal Donut</h4>
+                <div id="donut col-2">
+                    <img src="images/img-donut.jpg" alt="donut" class="img-fluid donut">
+                    <h4 class="donut-title text-center">Seasonal Donut</h4>
                 </div>
-                <div id="myrtle-ave">
-                    <img src="img/img-myrtle-ave.jpg" alt="myrtle-ave" class="myrtle-ave">
-                    <h4 class="myrtle-ave-title">Myrtle Ave Tea</h4>
+                <div id="myrtle-ave col-2">
+                    <img src="images/img-myrtle-ave.jpg" alt="myrtle-ave" class="img-fluid myrtle-ave">
+                    <h4 class="myrtle-ave-title text-center">Myrtle Ave Tea</h4>
                 </div>
-                <div id="bedford-bizarre">
-                    <img src="img/img-bedford-bizarre.jpg" alt="bedford-bizarre" class="bedford-bizarre">
-                    <h4 class="bedford-bizarre-title">Bedford Bizarre Tea</h4>
+                <div id="bedford-bizarre col-2">
+                    <img src="images/img-bedford-bizarre.jpg" alt="bedford-bizarre" class="img-fluid bedford-bizarre">
+                    <h4 class="bedford-bizarre-title text-center pb-2">Bedford Bizarre Tea</h4>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
-    <div class="locations">
-        <section id="locations">
-            <div id="location">
-                <img src="img/img-locations-background.jpg" alt="locations" class="location">
-                <div class="locations-container">
-                    <h2 class="location-title">Locations</h2>
-                    <div class="container-of-containers">
-                        <div class="downtown-container">
-                            <div class="downtown-location">
-                                <h3 id="downtown">Downtown</h3>
-                                <h5>384 West 4th St</h5>
-                                <h5>Suite 108</h5>
-                                <h5>Portland, Maine</h5>
-                            </div>
+
+    <div id="location">
+        <div class="container location-container">
+            <h2 class="location-title text-center pt-5 mb-5">Locations</h2>
+            <div class="location-container2">
+                <div class="row d-flex justify-content-center">
+                    <div class="downtown-container col-4 mr-4 mb-4">
+                        <div class="downtown-location text-center">
+                            <h3 id="downtown" class="pt-3">Downtown</h3>
+                            <h5>384 West 4th St</h5>
+                            <h5>Suite 108</h5>
+                            <h5>Portland, Maine</h5>
                         </div>
-                        <div class="east-bayside-container">
-                            <div class="east-bayside-location">
-                                <h3 id="east-bayside">East Bayside</h3>
-                                <h5>3433 Phisherman's Avenue</h5>
-                                <h5>(Northwest Corner)</h5>
-                                <h5>Portland, Maine</h5>
-                            </div>
+                    </div>
+                    <div class="east-bayside-container col-4 mr-4 mb-4">
+                        <div class="east-bayside-location text-center">
+                            <h3 id="east-bayside" class="pt-3">East Bayside</h3>
+                            <h5>3433 Phisherman's Avenue</h5>
+                            <h5>(Northwest Corner)</h5>
+                            <h5 class="pb-3">Portland, Maine</h5>
                         </div>
-                        <div class="oakdale-container">
-                            <div class="oakdale-location">
-                                <h3 id="oakdale">Oakdale</h3>
-                                <h5>515 Crescent Avenue</h5>
-                                <h5>Second Floor</h5>
-                                <h5>Portland, Maine</h5>
-                            </div>
+                    </div>
+                    <div class="oakdale-container col-4">
+                        <div class="oakdale-location text-center">
+                            <h3 id="oakdale" class="pt-3">Oakdale</h3>
+                            <h5>515 Crescent Avenue</h5>
+                            <h5>Second Floor</h5>
+                            <h5 class="pb-3">Portland, Maine</h5>
                         </div>
                     </div>
                 </div>
-        </section>
+            </div>
         </div>
-        <div class="ending-title">
-            <h2>The Tea Cozy</h2>
-            <h5>contact@theteacozy.com</h5>
-            <h5>917-555-8904</h5>
-        </div>
-        <footer>
-            <h5>&copyThe Tea Cozy 2017</h5>
-        </footer>
     </div>
+    <div class="bg-dark text-white text-center footer">
+        <a href="#mission" class="pt-2 text-white">The Tea Cozy</a>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+        <h5 class="pb-2">&copy R&E Web Designs 2019</h5>
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

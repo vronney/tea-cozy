@@ -1,0 +1,135 @@
+.missionImage,
+.location {
+    width: 100%;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.tea-month .img-fluid {
+    width: 300px;
+    height: 200px;
+}
+
+.downtown-container,
+.east-bayside-container,
+.oakdale-container {
+    color: whitesmoke;
+    background-color: black;
+    width: 200px;
+}
+
+#location {
+    margin: 0;
+    background: url("images/img-locations-background.jpg"), no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.location-container {
+    align-items: center;
+}
+
+.footer a {
+    font-size: 1rem;
+}
+
+.footer h5 {
+    font-size: .65rem;
+    margin-bottom: 0;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 480px) {
+    #mission-title {
+        position: absolute;
+        top: 175px;
+        text-align: center;
+        background-color: rgba(245, 245, 245, 0.6);
+    }
+
+    .downtown-location h3,
+    .downtown-location h5 {
+        font-size: 1rem;
+    }
+
+    .east-bayside-location h3,
+    .east-bayside-location h5 {
+        font-size: 1rem;
+    }
+
+    .oakdale-location h3,
+    .oakdale-location h5 {
+        font-size: 1rem;
+    }
+
+    #mission-title h2 {
+        font-size: 1.5rem;
+    }
+
+    #mission-title h4 {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 40%;
+    }
+}
+
+/* Tablet View */
+@media only screen and (min-width:500px) {
+    #mission-title {
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        background-color: rgba(245, 245, 245, 0.6);
+        width: 100%;
+    }
+
+    #mission-title h2 {
+        font-size: 2.5rem;
+    }
+
+    #mission-title h4 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Desktop/Laptop View */
+@media only screen and (min-width:768px) {
+    #mission-title {
+        position: absolute;
+        top: 350px;
+        text-align: center;
+        background-color: rgba(245, 245, 245, 0.6);
+        width: 100%;
+    }
+
+    #mission-title h2 {
+        font-size: 2.5rem;
+    }
+
+    #mission-title h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:1060px) {
+    #mission-title {
+        position: absolute;
+        top: 550px;
+        text-align: center;
+        background-color: rgba(245, 245, 245, 0.6);
+        width: 100%;
+    }
+
+    #mission-title h2 {
+        font-size: 2.5rem;
+    }
+
+    #mission-title h4 {
+        font-size: 1.5rem;
+    }
+}
